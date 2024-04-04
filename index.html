@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <title>Homepage</title>
 </head>
 
 <body>
-  <header>
+  <header class="content-container">
     <h1>Jibneh Arabieh</h1>
     <img src="./assets/jibneh-arabieh.jpg" alt="jibneh arabieh cheese">
     <h2>About cheese</h2>
@@ -22,65 +23,134 @@
       Paneer cheesy grin cheesecake chalk and cheese stinking bishop cottage cheese goat mascarpone.
       Pepper jack.
     </p>
-    <a href="" target="_blank">Github</a>
-    <a href="" target="_blank">LinkedIn</a>
-    <a href="" target="_blank">Twitter</a>
+    <a href="" target="_blank">
+      <img src="./assets/github.svg" width="36" height="36">
+    </a>
+    <a href="" target="_blank">
+      <img src="./assets/linkedin.svg" width="36" height="36">
+    </a>
+    <a href="" target="_blank">
+      <img src="./assets/twitter.svg" width="36" height="36">
+    </a> 
   </header>
-  <main>
+  <main class="content-container">
     <h2>My cheese</h2>
-    <article>
-      <h3>Gorgonzola</h3>
-      <img src="./assets/gorgonzola.jpg" alt="gorgonzola cheese">
-      <a href="">Github</a>
-      <a href="">Live Preview</a>
-      <p>Short description of the project. Just a couple sentences will do.</p>
-    </article>
-    <article>
-      <h3>Burrata</h3>
-      <img src="./assets/burrata.jpg" alt="burrata cheese">
-      <a href="">Github</a>
-      <a href="">Live Preview</a>
-      <p>Fromage cheeseburger parmesan dolcelatte edam airedale bavarian bergkase.</p>
-    </article>
-    <article>
-      <h3>Cotija</h3>
-      <img src="./assets/cotija.jpg" alt="cotija cheese">
-      <a href="">Github</a>
-      <a href="">Live Preview</a>
-      <p>Feta croque monsieur cheese triangles bocconcini macaroni cheese airedale red leicester squirty cheese.</p>
-    </article>
-    <article>
-      <h3>Wensleydale</h3>
-      <img src="./assets/wensleydale.jpg" alt="wensleydale cheese">
-      <a href="">Github</a>
-      <a href="">Live Preview</a>
-      <p>Macaroni cheese camembert de normandie cheese slices red leicester cheese and biscuits monterey jack croque monsieur cheesy feet.</p>
-    </article>
-    <article>
-      <h3>Camembert</h3>
-      <img src="./assets/camembert.jpg" alt="camembert cheese">
-      <a href="">Github</a>
-      <a href="">Live Preview</a>
-      <p>Caerphilly cheese triangles cut the cheese smelly cheese cream cheese fromage airedale cheese on toast.</p>
-    </article>
-    <article>
-      <h3>Manchego</h3>
-      <img src="./assets/manchego.jpg" alt="manchego cheese">
-      <a href="">Github</a>
-      <a href="">Live Preview</a>
-      <p>Monterey jack goat squirty cheese.</p>
-    </article>
+    <section class="card-board">
+      <article class="card">
+        <div class="card-image">
+          <img src="./assets/gorgonzola.jpg" alt="gorgonzola cheese">
+        </div>
+        <div class="card-content">
+          <h3>Gorgonzola</h3>
+          <a href="" target="_blank">
+            <img src="./assets/github.svg" width="24" height="24">
+          </a>
+          <a href="">
+            <img src="./assets/external-link.svg" width="24" height="24">
+          </a>
+          <p>Short description of the project. Just a couple sentences will do.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-image">
+          <img src="./assets/burrata.jpg" alt="burrata cheese">
+        </div>
+        <div class="card-content">
+          <h3>Burrata</h3>
+          <a href="" target="_blank">
+            <img src="./assets/github.svg" width="24" height="24">
+          </a>
+          <a href="">
+            <img src="./assets/external-link.svg" width="24" height="24">
+          </a>
+          <p>Fromage cheeseburger parmesan dolcelatte edam airedale bavarian bergkase.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-image">
+          <img src="./assets/cotija.jpg" alt="cotija cheese">
+        </div>
+        <div class="card-content">
+          <h3>Cotija</h3>
+          <a href="" target="_blank">
+            <img src="./assets/github.svg" width="24" height="24">
+          </a>
+          <a href="">
+            <img src="./assets/external-link.svg" width="24" height="24">
+          </a>
+          <p>Feta croque monsieur cheese triangles bocconcini macaroni cheese airedale red leicester squirty cheese.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-image">
+          <img src="./assets/wensleydale.jpg" alt="wensleydale cheese">
+        </div>
+        <div class="card-content">
+          <h3>Wensleydale</h3>
+          <a href="" target="_blank">
+            <img src="./assets/github.svg" width="24" height="24">
+          </a>
+          <a href="">
+            <img src="./assets/external-link.svg" width="24" height="24">
+          </a>
+          <p>Macaroni cheese camembert de normandie cheese slices red leicester cheese and biscuits monterey jack croque monsieur cheesy feet.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-image">
+          <img src="./assets/camembert.jpg" alt="camembert cheese">
+        </div>
+        <div class="card-content">
+          <h3>Camembert</h3>
+          <a href="" target="_blank">
+            <img src="./assets/github.svg" width="24" height="24">
+          </a>
+          <a href="">
+            <img src="./assets/external-link.svg" width="24" height="24">
+          </a>
+          <p>Caerphilly cheese triangles cut the cheese smelly cheese cream cheese fromage airedale cheese on toast.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-image">
+          <img src="./assets/manchego.jpg" alt="manchego cheese">
+        </div>
+        <div class="card-content">
+          <h3>Manchego</h3>
+          <a href="" target="_blank">
+            <img src="./assets/github.svg" width="24" height="24">
+          </a>
+          <a href="">
+            <img src="./assets/external-link.svg" width="24" height="24">
+          </a>
+          <p>Monterey jack goat squirty cheese.</p>
+        </div>
+      </article>
+    </section>
   </main>
-  <footer>
+  <footer class="content-container">
     <h2>Cheese me</h2>
     <p>Stinking bishop ricotta brie. Macaroni cheese monterey jack emmental croque monsieur jarlsberg melted cheese stilton cheesecake!</p>
     <p>1234 Kashkawan Way</p>
     <p>Bryndza, Humboldt Fog 12345</p>
-    <p>555-555-5555</p>
-    <p><a href="">jibneh.arabieh@norvegia.com</a></p>
-    <a href="" target="_blank">Github</a>
-    <a href="" target="_blank">LinkedIn</a>
-    <a href="" target="_blank">Twitter</a>
+    <p>
+      <img src="./assets/phone.svg" width="16" height="16">
+      555-555-5555
+    </p>
+    <p>
+      <img src="./assets/mail.svg" width="16" height="16">
+      <a href="">jibneh.arabieh@norvegia.com</a>
+    </p>
+    <a href="" target="_blank">
+      <img src="./assets/github.svg" width="36" height="36">
+    </a>
+    <a href="" target="_blank">
+      <img src="./assets/linkedin.svg" width="36" height="36">
+    </a>
+    <a href="" target="_blank">
+      <img src="./assets/twitter.svg" width="36" height="36">
+    </a>
+    <img src="./assets/jibneh-arabieh.jpg" alt="jibneh arabieh cheese">
   </footer>
 </body>
 
